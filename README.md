@@ -1,7 +1,9 @@
 # PRF_estimation
 
 Michalis Kassinopoulos, PhD candidate
+
 Graduate Program in Biological and Biomedical Engineering, McGill University, Montreal, Canada
+
 mkassinopoulos@gmail.com
 
 Date: 15-Jan-2019
