@@ -18,8 +18,10 @@ https://mcgill-my.sharepoint.com/:f:/g/personal/michalis_kassinopoulos_mail_mcgi
 ## Author
 
 Michalis Kassinopoulos, PhD candidate
+
 Graduate Program in Biological and Biomedical Engineering, McGill University, Montreal, Canada
-mkassinopoulos@gmail.com
+
+E-mail: mkassinopoulos@gmail.com
 
 Date: 15-Jan-2019
 
