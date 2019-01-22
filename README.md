@@ -17,7 +17,7 @@ In this work, we present a novel framework for estimating physiological response
 https://mcgill-my.sharepoint.com/:f:/g/personal/michalis_kassinopoulos_mail_mcgill_ca/EnY1Q8ny18ZKjEB-I_eqXJ0BT8zm4TsfGC6IIx06H9GswA?e=X7FTBg
 
 
-=================================================================
+====================================================================
 Extraction of PRF curves and associated physiological regressors:
 
 PRF_sc_optimize_parameters.m is a function that receives the heart rate, respiratory flow (variable extracted from respiratory signal), the global signal, and the parameters of the PRFs and returns the corresponding PRF curves as well as the regressors that should be incorporated later in the general linear model as nuissance regressors.
