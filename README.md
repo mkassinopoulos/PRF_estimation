@@ -10,7 +10,7 @@ https://mcgill-my.sharepoint.com/:f:/g/personal/michalis_kassinopoulos_mail_mcgi
 
 
 ## Extraction of PRF curves and associated physiological regressors
-*PRF_sc_optimize_parameters.m* is a function that receives the heart rate, respiratory flow (variable extracted from respiratory signal), the global signal, and the parameters of the PRFs and returns the corresponding PRF curves as well as the regressors that can be incorporated later in the general linear model as nuissance regressors.
+*PRF_sc_optimize_parameters.m* is a function that receives the heart rate, respiratory flow (variable extracted from respiratory signal), the global signal, and the parameters of the PRFs and returns the corresponding PRF curves as well as the regressors that can be incorporated later in the general linear model as nuisance regressors.
 
 *PRF_sc_HCP.m* is a script that demonstrates how the PRF_sc_optimize_parameters.m is used to find the optimal parameters using numerical optimization techniques. This script uses data from HCP that can be found in the SharePoint link shown earlier. *PRF_sc_HCP.m* consists of three sections. In the first section, the user selects a scan out of 164 scans from 41 subjects (these subjects were chosen based on the quality of their physiological recordings). The second section finds the optimal parameters using a genetic algorithm as well as a gradient-based algorithm. Finally, the last section presents the PRF curves and the associated physiological regressors of the model which can be exported by the user in a textfile and used in fMRI software toolboxes (e.g. FSL, SPM).
 
