@@ -3,7 +3,7 @@ Michalis Kassinopoulos, PhD candidate
 Graduate Program in Biological and Biomedical Engineering, McGill University, Montreal, Canada
 mkassinopoulos@gmail.com
 
-Date: 31-July-2019
+Date: 31-Jul-2019
 
 ==================================================================
 
@@ -20,7 +20,7 @@ In this work, we present a novel framework for estimating physiological response
 
 ====================================================================
 
-For instructions for how to use the scripts, please refer to the document "User Guide.pdf"
+For instructions regarding the use of the scripts, refer to the document "User Guide.pdf"
 
 Please do not hesitate to contact me if you have any questions related to the use of these scripts.
 
