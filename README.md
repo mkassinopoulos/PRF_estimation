@@ -14,7 +14,6 @@ In this work, we present a novel framework for estimating physiological response
 
 For instructions regarding the use of the scripts, please refer to the document "User Guide.pdf"
 
-Please do not hesitate to contact me if you have any questions related to the use of these scripts.
 
 
 ## Author
