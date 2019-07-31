@@ -38,7 +38,7 @@ nii_WM = load_nii(path_WM);  img_WM = nii_WM.img;
 
 [NX, NY, NZ, NV] = size(img);
 
-%% 3: Put all voxel timeseries from the whole-brain in a 2-d matrix
+%% 3: Copy all voxel timeseries from the whole-brain in a 2-d matrix
 
 NVX = 0;
 CordAll=zeros(NX*NY*NZ,3);

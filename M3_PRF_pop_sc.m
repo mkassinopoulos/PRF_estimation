@@ -37,6 +37,8 @@ lb(1:8)=0;  ub(1:8)=20; ub(2:2:8)=3;   lb(9:10) = -inf; ub(9:10)=inf;
 h = @(P) func_M3_PRF_pop_sc(P,Ts_10,HR_all,RF_all,ind_BOLD_10,GS_all);
 
 tic
+% Uncomment the following line if you want to use  Genetic Algorithm
+% (GA). GA may yield better fit with the cost of longer computational time.
 % PRF_par = ga(h,length(lb),[],[],[],[],lb,ub,[],[],ga_opts);
 PRF_par = fmincon(h,PRF_par,[],[],[],[],lb,ub,[],options);
 fprintf('Minutes elapsed: %3.1f  \n',  toc/60)

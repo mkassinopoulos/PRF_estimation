@@ -49,8 +49,10 @@ ub = PRF_par+3;
 lb = PRF_par-3; lb(find(lb<0))=0;
 
 h_train = @(P) func_M4_PRF_sc(P,Ts_10,HR,RF,ind_BOLD_10,GS,1);
-PRF_par = ga(h_train,length(ub),[],[],[],[],lb,ub,[],[],ga_opts);
-x_opt = fmincon(h_train,PRF_par,[],[],[],[],lb,ub,[],options);
+% Uncomment the following line if you want to use  Genetic Algorithm
+% (GA). GA may yield better fit with the cost of longer computational time.
+% PRF_par = ga(h_train,length(ub),[],[],[],[],lb,ub,[],[],ga_opts);
+PRF_par = fmincon(h_train,PRF_par,[],[],[],[],lb,ub,[],options);
 
 h = @(P) func_M4_PRF_sc(P,Ts_10,HR,RF,ind_BOLD_10,GS,0);
 [obj_function,CRF_sc,RRF_sc,HR_conv,RF_conv,r_PRF_sc,yPred, HR_conv_MR, RF_conv_MR] = h(PRF_par);

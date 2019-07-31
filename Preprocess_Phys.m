@@ -13,7 +13,7 @@ task_list = {'Rest1_LR','Rest1_RF', 'Rest2_LR', 'Rest2_RL'};
 %  Set the following parameters !!
 
 subject_id = '118730';
-task_id = task_list{4};    % list
+task_id = task_list{4};    
 
 %  ---------------------------------------
 % path_phys: the path where the 'Physio_log.txt' is located. The figures
