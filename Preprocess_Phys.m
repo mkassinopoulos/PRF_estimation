@@ -8,7 +8,7 @@
 %% 1: Load physiological data for a particular scan
 
 clear, clc, close all
-task_list = {'Rest1_LR','Rest1_RF', 'Rest2_LR', 'Rest2_RL'};
+task_list = {'Rest1_LR','Rest1_RL', 'Rest2_LR', 'Rest2_RL'};
 
 %  Set the following parameters !!
 
@@ -115,7 +115,7 @@ HR = interp1(time,HR_filloutl_400,time_10); HR=HR(:);
 
 plot(time,HR_raw_400), hold on
 plot(time_10, HR)
-title(sprintf('Heart rate (%d±%d bpm)',round(mean(HR)),round(std(HR))))
+title(sprintf('Heart rate (%dÂ±%d bpm)',round(mean(HR)),round(std(HR))))
 legend('Raw','Corrected for outliers')
 
 linkaxes([ax1,ax2],'x')
@@ -187,7 +187,7 @@ BR = interp1(time_BR,[BR(1),BR,BR(end)],time_10);
 
 ax3 = subplot(5,2,5:6);
 plot(time_10,BR)
-title(sprintf('Breathing rate (BR): %3.1f ±%3.1f ',mean(BR),std(BR)))
+title(sprintf('Breathing rate (BR): %3.1f Â±%3.1f ',mean(BR),std(BR)))
 ylabel('BR (rpm)')
 
 ax4 = subplot(5,2,7:8);
