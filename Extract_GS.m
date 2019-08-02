@@ -10,7 +10,7 @@
 %% 1: Define directories for necessary data
 
 clear, clc, close all
-task_list = {'Rest1_LR','Rest1_RF', 'Rest2_LR', 'Rest2_RL'};
+task_list = {'Rest1_LR','Rest1_RL', 'Rest2_LR', 'Rest2_RL'};
 
 %  Set the following parameters !!
 
