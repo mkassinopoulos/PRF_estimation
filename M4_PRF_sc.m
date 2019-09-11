@@ -23,7 +23,7 @@ ylabel('HR (bpm)')
 
 ax2 = subplot(3,1,2);
 plot(time_10,resp)
-title('Respiration (HR)')
+title('Respiration')
 ylabel('Amplitude (a.u.)')
 
 ax3 = subplot(3,1,3);
@@ -86,7 +86,7 @@ set(gcf, 'Position', [0.1*xL 0.1*yL  0.8*xL 0.8*yL ]);
 ax1 = subplot(5,3,1:2);
 plot(time_10,HR)
 ylabel('HR (bpm)')
-title(sprintf('Heart rate (HR; %2.0f±%1.0f bpm )',mean(HR),std(HR)))
+title(sprintf('Heart rate (HR; %2.0fÂ±%1.0f bpm )',mean(HR),std(HR)))
 
 ax6 = subplot(5,3,[3,6]);
 plot(t_IR,CRF_sc,'LineWidth',4), grid on
