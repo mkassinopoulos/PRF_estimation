@@ -1,6 +1,6 @@
 # PRF_estimation
 
-This repository provides scripts for our work presented in:
+This repository provides scripts used for our work presented in:
 
 Kassinopoulos, M., Mitsis, G.D., 2019. Identification of physiological response functions to correct for fluctuations in resting-state fMRI related to heart rate and respiration. Neuroimage 202, 116150. https://doi.org/10.1016/j.neuroimage.2019.116150
 
