@@ -1,4 +1,4 @@
-# PRF_estimation
+# PRF estimation
 
 This repository provides scripts used for our work presented in:
 
